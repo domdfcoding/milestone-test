@@ -4,6 +4,8 @@ name: Linux
 
 on:
   push:
+    branches-ignore:
+      - demo
     tags:
       - '*'
   pull_request:
