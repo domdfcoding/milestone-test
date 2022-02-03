@@ -17,7 +17,6 @@ permissions:
 jobs:
 
   Deploy:
-    needs: tests
 
     runs-on: "ubuntu-20.04"
     steps:
